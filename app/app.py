@@ -26,7 +26,7 @@ def get_boxers():
 
 @app.route('/flask', methods=['GET'])
 def flask_endpoint():
-    return "Hello from Flask!"
+    return "Вечер в хату, Алексей Сергеевич!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
